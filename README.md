@@ -1,73 +1,77 @@
-# Welcome to your Lovable project
+# Maitreyan T R — Portfolio
 
-## Project info
+A personal portfolio website showcasing my projects, skills, education, achievements, and experience. Built with a modern stack and a clean, responsive design.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Features
 
-## How can I edit this code?
+- **Hero** — Introduction with profile photo and quick links (GitHub, LinkedIn, resume)
+- **About** — Bio and background
+- **Education** — Timeline of degrees and institutions
+- **Skills** — Tech stack (languages, frameworks, databases, tools) with icons
+- **Projects** — Project cards with descriptions and GitHub links
+- **Roles** — Positions (e.g. Google On Campus, 403 Straits)
+- **Achievements** — Hackathons and events with photo carousels and details
+- **Interests** — Focus areas (e.g. Full-Stack, DBMS, Quantum, ML/AI)
+- **Contact** — Email, phone, LinkedIn, GitHub, and resume download
 
-There are several ways of editing your application.
+## Tech Stack
 
-**Use Lovable**
+- **Vite** — Build tool and dev server
+- **React 18** — UI
+- **TypeScript** — Typing
+- **Tailwind CSS** — Styling
+- **Framer Motion** — Animations
+- **Radix UI** — Accessible components (dialogs, carousel, etc.)
+- **Lucide React** — Icons
+- **Embla Carousel** — Achievement photo carousels
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (v18 or later recommended)
+- npm (or yarn / pnpm)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Install and run
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+# Clone the repository
+git clone https://github.com/Maitreyan-git/portfolio-brilliance-main.git
+cd portfolio-brilliance-main
 
-Follow these steps:
+# Install dependencies
+npm install
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server (default: http://localhost:5173)
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Other scripts
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+# Production build
+npm run build
 
-**Use GitHub Codespaces**
+# Preview production build locally
+npm run preview
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Lint
+npm run lint
+```
 
-## What technologies are used for this project?
+## Project structure
 
-This project is built with:
+- `src/components/` — Section components (Hero, About, Skills, Projects, etc.)
+- `src/pages/` — Main page layout
+- `src/assets/` — Local images and assets
+- `public/` — Static assets (resume, profile photo, achievement images)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## License
 
-## How can I deploy this project?
+This project is for personal/portfolio use. All rights reserved.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Author:** Maitreyan T R  
+**LinkedIn:** [maitreyan-t-r-030a45318](https://www.linkedin.com/in/maitreyan-t-r-030a45318/)  
+**GitHub:** [Maitreyan-git](https://github.com/Maitreyan-git/)
